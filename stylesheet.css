@@ -1,0 +1,65 @@
+@font-face { font-family: andada;
+			src: url(andadareg.otf); }
+			
+@font-face { font-family: amaranth;
+			src: url(amaranthreg.otf); }
+			
+body { font-family: amaranth, verdana, "lucida console";
+		font-size: 12px;
+		line-height: 1.5;
+		margin: 5;
+		padding: 5; }
+
+h1 { font-family: andada, verdana, lucida console;
+	font-size: 30px; 
+	text-align: center; }
+	
+p { font-family: amaranth, verdana, lucida console;
+	font-size: 14px; }
+	
+p { margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 150px;
+	margin-left: 150px; }
+	
+img { padding: 4px;
+	border: 10px solid black;
+	background-color: white; }
+	
+#secretlink { 	color: black; 
+				background-color: transparent;
+				text-decoration: none; }
+
+#text1 { text-align: center; }
+				
+#goose { margin-bottom: 15px;
+		margin-right: 540px;
+		margin-left: 540px; }
+		
+#hiddencrow { margin-bottom: 15px;
+			margin-right: 540px;
+			margin-left: 490px; }
+				
+#aspen { margin-bottom: 15px;
+		margin-right: 540px;
+		margin-left: 560px; }
+		
+#crow { margin-bottom: 15px;
+			margin-right: 540px;
+			margin-left: 320px; }
+				
+a:visited { color: #994d00; }
+
+/* a id="secretlink":visited { color: orange;
+							background-color: transparent;
+							text-decoration: underline overline; 
+Unfortunately this doesn't work */
+
+ul { display: inline; 
+	font-size: 30;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	margin-right: 150px;
+	margin-left: -40px; }
+
+/* background-color: #aed0ae  (wanted to change colour with each page, no longer need this */
